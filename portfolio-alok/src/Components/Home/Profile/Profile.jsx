@@ -3,6 +3,7 @@ import Typical from 'react-typical';
 import { Button,makeStyles } from '@material-ui/core';
 import "./Profile.css";
 
+
 const useStyles = makeStyles({
     resumebtn: {
         backgroundColor: '#ff5823',
@@ -34,7 +35,7 @@ const useStyles = makeStyles({
             color: 'black',
             borderColor: 'black',
         },
-        margin:'10px'
+        margin:'10px',
     },
     name: {
         fontFamily: 'Palatino'
